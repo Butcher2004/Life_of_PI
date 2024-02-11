@@ -37,8 +37,8 @@ txt.addEventListener("click", trig);
 var arr = [
   "<div class='chapter' data-aos='fade-in' data-aos-offset='200' data-aos-delay='0' data-aos-duration='1000' ><a href = 'chapters\\chapt_1.html'><div class = 'chappie'><img src='pictures\\p_d.png' alt=''><h3>Chapter 1</h3><p>PONDICHERRY </p> <span>DREAMS</span></div></a></div>",
   "<div class='chapter' data-aos='fade-in' data-aos-offset='200' data-aos-delay='500' data-aos-duration='1000' ><a href = 'chapters\\chapt_2.html'><div class = 'chappie'><img src='pictures\\t_j_b.png' alt=''> <h3>Chapter 2</h3><p>THE JOURNEY </p><span>BEGINS</span></div></a></div>",
-  "<div class='chapter' data-aos='fade-in' data-aos-offset='200' data-aos-delay='1000' data-aos-duration='1000' ><a href = 'chapters\\chapt_3.html'><div class = 'chappie'><img src='pictures\\sas_4.png' alt=''> <h3>Chapter 3</h3><p>SURVIVAL</p><span>AT SEA</span></div></a></div>",
-  "<div class='chapter' data-aos='fade-in' data-aos-offset='200' data-aos-delay='1500' data-aos-duration='1000' ><a href = 'chapters\\chapt_4.html'><div class = 'chappie'><img src='pictures\\the_end_1.png' alt=''> <h3>Chapter 4</h3><p>THE ULTIMATE</p><span>JOURNEY</span></div></a></div>",
+  "<div class='chapter' data-aos='fade-in' data-aos-offset='200' data-aos-delay='750' data-aos-duration='1000' ><a href = 'chapters\\chapt_3.html'><div class = 'chappie'><img src='pictures\\sas_4.png' alt=''> <h3>Chapter 3</h3><p>SURVIVAL</p><span>AT SEA</span></div></a></div>",
+  "<div class='chapter' data-aos='fade-in' data-aos-offset='200' data-aos-delay='1000' data-aos-duration='1000' ><a href = 'chapters\\chapt_4.html'><div class = 'chappie'><img src='pictures\\the_end_1.png' alt=''> <h3>Chapter 4</h3><p>THE ULTIMATE</p><span>JOURNEY</span></div></a></div>",
 ];
 
 function trig() {
