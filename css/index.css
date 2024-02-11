@@ -1,6 +1,6 @@
 @font-face {
   font-family: "futura"; /* Specify a name for your font */
-  src: url("/css/Futura Bold font.ttf");
+  src: url("./Futura Bold font.ttf");
 }
 
 body {
