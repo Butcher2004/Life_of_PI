@@ -1,0 +1,375 @@
+
+@font-face {
+  font-family: "futura"; /* Specify a name for your font */
+  src: url("/css/Futura Bold fonet.ttf");
+}
+
+body {
+  padding: 1%;
+  background-color: black;
+  color: rgb(84, 94, 154);
+  cursor: default;
+  
+}
+
+.intro img {
+  height: 896px;
+  width: 700px;
+
+}
+
+.intro {
+  display: flex;
+  width: 100%;
+  gap: 15%;
+}
+
+.head {
+  height: 896PX;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.head h3 {
+  font-family: futura;
+  font-size: 60px;
+}
+
+
+
+h1
+{
+  font-size: 5rem;
+  font-family: FUTURA;
+}
+
+.chapter
+{
+  height: 1100px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container
+{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.container p
+{
+  font-size: 1rem;
+  padding: 3%;
+}
+
+
+
+.end
+{
+  height: 500px;
+  text-align: center;
+
+}
+.end p{
+  font-size: 30px;
+  color: rgb(84, 94, 154,0.5);
+}
+.end span
+{
+  font-size: 20px;
+}
+
+
+
+.slider {
+  margin-top: 1%;
+  width: 100%; /* Set width of the slider */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.slider::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.slider img {
+  width: 700px; /* Ensure images fill their container with space between */
+  margin-right: 10px; /* Add space between images */
+  display: inline-block; /* Display images in a row */
+  vertical-align: top; /* Align images to the top of their container */
+}
+
+
+
+
+@media screen and (max-width : 1124px) 
+{
+  .slider img {
+    width: calc(700px * 0.71); 
+    margin-right: calc(10px * 0.71); 
+   
+  }
+
+  .end
+  {
+    height: calc(500px * 0.71);
+
+  }
+  .end p{
+    font-size: calc(30px * 0.71);
+  }
+
+  .end span
+  {
+    font-size: calc(20px * 0.71);
+  }
+
+  .head {
+    height: calc(896px * 0.71);
+
+  }
+  
+  
+  .head h3 {
+
+    font-size: calc(60px * 0.71);
+  }
+
+  .intro img {
+    height: calc(896px * 0.71);
+    width: calc( 700px * 0.71);
+  
+  }
+
+}
+
+@media screen and (max-width : 812px) 
+{
+  .slider img {
+    width: calc(700px * 0.56); 
+    margin-right: calc(10px * 0.56); 
+   
+  }
+
+  .end
+  {
+    height: calc(500px * 0.56);
+
+  }
+  .end p{
+    font-size: calc(30px * 0.56);
+  }
+
+  .end span
+  {
+    font-size: calc(20px * 0.56);
+  }
+
+  .head {
+    height: calc(896px * 0.56);
+
+  }
+  
+  .container
+  {
+    flex-wrap: wrap;
+  }
+  
+  .head h3 {
+
+    font-size: calc(60px * 0.56);
+  }
+
+  .intro img {
+    height: calc(896px * 0.56);
+    width: calc( 700px * 0.56);
+  
+  }
+
+}
+
+
+@media screen and (max-width : 625px) 
+{
+  .slider img {
+    width: calc(700px * 0.44); 
+    margin-right: calc(10px * 0.44); 
+   
+  }
+
+  .container
+  {
+    flex-wrap: wrap;
+  }
+  .end
+  {
+    height: calc(500px * 0.44);
+
+  }
+  .end p{
+    font-size: calc(30px * 0.44);
+  }
+
+  .end span
+  {
+    font-size: calc(20px * 0.44);
+  }
+
+  .head {
+    height: calc(896px * 0.44);
+
+  }
+  
+  
+  .head h3 {
+
+    font-size: calc(60px * 0.44);
+  }
+
+  .intro img {
+    height: calc(896px * 0.44);
+    width: calc( 700px * 0.44);
+  
+  }
+
+}
+
+@media screen and (max-width : 506px) 
+{
+  .slider img {
+    width: calc(700px * 0.35); 
+    margin-right: calc(10px * 0.35); 
+   
+  }
+
+  .container
+  {
+    flex-wrap: wrap;
+  }
+
+  .end
+  {
+    height: calc(500px * 0.35);
+
+  }
+  .end p{
+    font-size: calc(30px * 0.35);
+  }
+
+  .end span
+  {
+    font-size: calc(20px * 0.35);
+  }
+
+  .head {
+    height: calc(896px * 0.35);
+
+  }
+  
+  
+  .head h3 {
+
+    font-size: calc(60px * 0.35);
+  }
+
+  .intro img {
+    height: calc(896px * 0.35);
+    width: calc( 700px * 0.35);
+  }
+
+  .chapter
+  {
+    height: calc(1100px * 0.7);
+    padding: 5%;
+  }
+
+  .container p
+  {
+    font-size: calc(1rem * 0.7);
+    padding: 3%;
+  }
+
+  h1
+  {
+    font-size: calc(5rem * 0.7);
+    font-family: FUTURA;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width : 415px) 
+{
+  .slider img {
+    width: calc(700px * 0.28); 
+    margin-right: calc(10px * 0.28); 
+   
+  }
+
+  .container
+  {
+    flex-wrap: wrap;
+  }
+
+
+  .end
+  {
+    height: calc(500px * 0.28);
+
+  }
+  .end p{
+    font-size: calc(30px * 0.28);
+  }
+
+  .end span
+  {
+    font-size: calc(20px * 0.28);
+  }
+
+  .head {
+    height: calc(896px * 0.28);
+
+  }
+  
+  
+  .head h3 {
+
+    font-size: calc(60px * 0.28);
+  }
+
+  .intro img {
+    height: calc(896px * 0.28);
+    width: calc( 700px * 0.28);
+  }
+
+  .chapter
+  {
+    height: calc(1100px * 0.5);
+    padding: 5%;
+  }
+
+  .container p
+  {
+    font-size: calc(1rem * 0.5);
+    padding: 3%;
+  }
+
+  h1
+  {
+    font-size: calc(5rem * 0.5);
+    font-family: FUTURA;
+  }
+
+
+}
