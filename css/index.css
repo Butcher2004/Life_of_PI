@@ -1116,11 +1116,96 @@ h3 {
 }
 
 
-@media screen  and (max-width : 481px) 
+
+
+
+@media screen  and (max-width : 520px) 
 {
-  .vid
-  {
-    width: calc(1000px * 0.35);
+  #bton {
+    top: 8%;
+    font-size: calc(20px * 0.37);
+    letter-spacing: calc(1px * 0.37);
+    
+  }
+  
+  .text {
+    top: calc(30% * 0.6);
+    font-size: calc(140px * 0.37);
+    letter-spacing: calc(10px * 0.37);
+    margin-right: calc(-10px * 0.37);
+  }
+  
+  .of {
+    font-size: calc(50px * 0.37);
+    letter-spacing: calc(5.8px * 0.37);
+    margin-right: calc(-5.8px * 0.37);
+   
+   
+  }
+  
+  .vid {
+    position: absolute;
+    top: 15%;
+    z-index: -1;
+    animation: opacity_of_video 6s ease-in forwards;
+    cursor: pointer;
+    width: calc(1000px * 0.37);
+  }
+
+  @keyframes move_to_top {
+  
+    0%
+    {
+      font-size: calc(200px * 0.37);
+      letter-spacing: calc(80px * 0.37);
+      margin-right: calc(-80px * 0.37);
+      word-spacing: calc(30px * 0.37);
+    }
+    100%
+    {
+      font-size: calc(200px * 0.37);
+      letter-spacing: calc(80px * 0.37);
+      margin-right: calc(-80px * 0.37);
+      word-spacing: calc(30px * 0.37);
+      opacity: 0;
+    }
+  
+  }
+  
+  @keyframes move_to_top_s {
+    0%
+    {
+      font-size: calc(66.6px * 0.37);
+      letter-spacing: calc(25.5px * 0.37);
+      margin-right: calc(-25.5px * 0.37);
+    }
+    100%
+    {
+      font-size: calc(66.6px * 0.37);
+      letter-spacing: calc(25.5px * 0.37);
+      margin-right: calc(-25.5px * 0.37);
+      opacity: 0;
+    }
+  }
+
+  @keyframes textSize {
+    100% {
+      font-size: calc(200px * 0.37);
+      letter-spacing: calc(80px * 0.37);
+      margin-right: calc(-80px * 0.37);
+      word-spacing: calc(30px * 0.37);
+    }
+  }
+  
+  @keyframes textSize_s {
+    0% {
+      font-size: calc( 50px * 0.37);
+    }
+    100% {
+      font-size: calc(66.6px * 0.37);
+      letter-spacing: calc(25.5px * 0.37);
+      margin-right: calc(-25.5px * 0.37);
+    }
   }
 }
 
@@ -1132,22 +1217,22 @@ h3 {
 
   #bton {
     top: 8%;
-    font-size: calc(20px * 0.3);
-    letter-spacing: calc(1px * 0.3);
+    font-size: calc(20px * 0.27);
+    letter-spacing: calc(1px * 0.27);
     
   }
   
   .text {
     top: calc(30% * 0.6);
-    font-size: calc(140px * 0.3);
-    letter-spacing: calc(10px * 0.3);
-    margin-right: calc(-10px * 0.3);
+    font-size: calc(140px * 0.27);
+    letter-spacing: calc(10px * 0.27);
+    margin-right: calc(-10px * 0.27);
   }
   
   .of {
-    font-size: calc(50px * 0.3);
-    letter-spacing: calc(5.8px * 0.3);
-    margin-right: calc(-5.8px * 0.3);
+    font-size: calc(50px * 0.27);
+    letter-spacing: calc(5.8px * 0.27);
+    margin-right: calc(-5.8px * 0.27);
    
    
   }
@@ -1158,24 +1243,24 @@ h3 {
     z-index: -1;
     animation: opacity_of_video 6s ease-in forwards;
     cursor: pointer;
-    width: calc(1000px * 0.25);
+    width: calc(1000px * 0.27);
   }
 
   @keyframes move_to_top {
   
     0%
     {
-      font-size: calc(200px * 0.3);
-      letter-spacing: calc(80px * 0.3);
-      margin-right: calc(-80px * 0.3);
-      word-spacing: calc(30px * 0.3);
+      font-size: calc(200px * 0.27);
+      letter-spacing: calc(80px * 0.27);
+      margin-right: calc(-80px * 0.27);
+      word-spacing: calc(30px * 0.27);
     }
     100%
     {
-      font-size: calc(200px * 0.3);
-      letter-spacing: calc(80px * 0.3);
-      margin-right: calc(-80px * 0.3);
-      word-spacing: calc(30px * 0.3);
+      font-size: calc(200px * 0.27);
+      letter-spacing: calc(80px * 0.27);
+      margin-right: calc(-80px * 0.27);
+      word-spacing: calc(30px * 0.27);
       opacity: 0;
     }
   
@@ -1184,36 +1269,36 @@ h3 {
   @keyframes move_to_top_s {
     0%
     {
-      font-size: calc(66.6px * 0.3);
-      letter-spacing: calc(25.5px * 0.3);
-      margin-right: calc(-25.5px * 0.3);
+      font-size: calc(66.6px * 0.27);
+      letter-spacing: calc(25.5px * 0.27);
+      margin-right: calc(-25.5px * 0.27);
     }
     100%
     {
-      font-size: calc(66.6px * 0.3);
-      letter-spacing: calc(25.5px * 0.3);
-      margin-right: calc(-25.5px * 0.3);
+      font-size: calc(66.6px * 0.27);
+      letter-spacing: calc(25.5px * 0.27);
+      margin-right: calc(-25.5px * 0.27);
       opacity: 0;
     }
   }
 
   @keyframes textSize {
     100% {
-      font-size: calc(200px * 0.3);
-      letter-spacing: calc(80px * 0.3);
-      margin-right: calc(-80px * 0.3);
-      word-spacing: calc(30px * 0.3);
+      font-size: calc(200px * 0.27);
+      letter-spacing: calc(80px * 0.27);
+      margin-right: calc(-80px * 0.27);
+      word-spacing: calc(30px * 0.27);
     }
   }
   
   @keyframes textSize_s {
     0% {
-      font-size: calc( 50px * 0.3);
+      font-size: calc( 50px * 0.27);
     }
     100% {
-      font-size: calc(66.6px * 0.3);
-      letter-spacing: calc(25.5px * 0.3);
-      margin-right: calc(-25.5px * 0.3);
+      font-size: calc(66.6px * 0.27);
+      letter-spacing: calc(25.5px * 0.27);
+      margin-right: calc(-25.5px * 0.27);
     }
   }
 }
