@@ -1116,6 +1116,15 @@ h3 {
 }
 
 
+@media screen  and (max-width : 481px) 
+{
+  .vid
+  {
+    width: calc(1000px * 0.35);
+  }
+}
+
+
 
 
 @media screen  and (max-width : 427px) 
@@ -1149,7 +1158,7 @@ h3 {
     z-index: -1;
     animation: opacity_of_video 6s ease-in forwards;
     cursor: pointer;
-    width: calc(1000px * 0.3);
+    width: calc(1000px * 0.25);
   }
 
   @keyframes move_to_top {
